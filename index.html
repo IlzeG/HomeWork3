@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="scripts/script.js" defer></script>
+    <script src="text/javascript" src="scripts/script.js" defer></script>
     <link rel="stylesheet" href="styles/style.css">
     <title>Homework 3</title>
 
@@ -25,11 +25,12 @@
             <h3>FizzBuzz color: </h3><input id="fizzBuzzColor" type="color" value="#e4eb7d">
             <h3>None color: </h3><input id="noneColor" type="color" value="#eb7db0">
         </div>
+       
         <div id="sizeBox">
                 <div class="sliders">
                     <div class="sliderLabel">
                         <p>Width: <span id="elWidthOutput"></span>
-                    <input type="range" min="20" max="80" value="80" placeholder="width" id="elWidth" name ="widthLabel">
+                    <input type="range" min="20" max="80" value="80" id="width" id="elWidth" name ="widthLabel">
                         <p>Height: <span id="elHeightOutput"></span>
                     <input type="range" min="20" max="80" value="80" id="elHeight" name="heightLabel"> 
                 </p></div>
@@ -37,11 +38,12 @@
         </div>
     
         <div id="menuBox">
-            <button type="submit" id="default"><h3>Default</h3></button>
-            <button type="submit" id="clear"><h3>Clear</h3></button>
-            <button type="submit" id="custom"><h3>Custom</h3></button>
+            <h3><button type="submit" id="default">Default</button>
+            <button type="submit" id="clear">Clear</button>
+            <button type="submit" id="custom">Custom</button></h3>
         </div>
         <div id ="elements"></div>
+        
     </main>
 
     
