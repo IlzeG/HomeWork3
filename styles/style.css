@@ -27,7 +27,6 @@ input {
   grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px;
   grid-template-rows: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px;
   grid-template-areas: ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . . . . .";
-
 }
 
 .Fizz {
@@ -82,35 +81,11 @@ input {
     transition: all 0.3s linear;
 }
 
-#sizeBox {
-    padding-top: 2px;
-    padding-bottom: 7px;
-    padding-left: 10%;
-}
-
-.sliderLabel {
-    display: grid; 
-    grid-template-columns: auto auto;
-}
-#elWidth {
-    display: grid;
-    width: 80%;
-    height: 15px;
-    border-radius: 5px;    
-}
-
-#elHeight {
-    display: grid;
-    width: 80%;
-    height: 15px;
-    border-radius: 5px;
-}
-
 #menuBox {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 50px;
-    font-family: Arial, Helvetica, sans-serif;    
+    padding-top: 20px;   
 }
 
 #valueBox {
@@ -129,7 +104,7 @@ h3 {
     display: inline;
     font-size: 16px;
     font-weight: 100;
-    text-align:left; 
+    text-align:center; 
 }
 
 #endValue{
@@ -218,7 +193,7 @@ h3 {
     }
 
 /*it looks better in Mozilla Web browser*/
-    #valueBox {                  
+  /*  #valueBox {                  
         padding-right: 50px;  
         text-align:right;
     }
@@ -229,7 +204,7 @@ h3 {
     }
     
 /*and it looks better in Chrome Web browser*/
-/* #valueBox {                         
+ #valueBox {                         
         padding-right: 125px;  
         text-align:right;
     }
@@ -237,7 +212,7 @@ h3 {
    #colorBox {
         padding-right: 135px;
         text-align:right;
-    } */
+    }
 
     #elements {
         display: grid;
@@ -246,4 +221,3 @@ h3 {
         grid-template-areas: ". . .";
     }
 }
-
